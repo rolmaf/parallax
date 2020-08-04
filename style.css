@@ -1,0 +1,54 @@
+* {
+	box-sizing: border-box;
+	outline: none;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.scene {
+	max-height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+
+
+.layer {
+	position: absolute;
+	/* left: -10%; */
+	top: 0;
+	width: 110%;
+	height: 100%;
+	border: none !important;
+	padding: 0;
+	margin: 0;
+}
+
+.bg {
+	background-image: url(./img/intro-bg.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	-webkit-background-repeat: no-repeat;
+	background-repeat: no-repeat;
+}
+
+
+.layer-1 {
+	background-image: url(./img/bank-doc.png);
+	background-repeat: no-repeat;
+	-webkit-background-repeat: no-repeat;
+	background-position: center;
+}
+
+.layer-2 {
+	background-image: url(./img/berry-p-2.png);
+	background-repeat: no-repeat;
+	-webkit-background-repeat: no-repeat;
+	background-position: center;
+}
